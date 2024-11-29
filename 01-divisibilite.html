@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo d'Algo - Even / Odd !</title>
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="card">
+    <!--Instructions-->
+    <p class="h6 font-weight-bold text-center">#01 - Divisibilité d'un nombre</p>
+    <div class="instructions">
+        <p class="text-secondary">Test de la divisibilité d'un nombre par 3.<br>
+        Pour rappel, un nombre divisible par 3 est un nombre dont le reste de la division entière 
+        par 3 est nul. Ce nombre est un multiple de 3.</p>
+        <br />
+        <p class="text-secondary">Par exemple,</p>
+        <p class="text-primary">  "3, 6, 9, ..., 72, 75, 78, 81, ..."</p>
+        <p class="text-secondary">sont des nombres divisibles par 3.</p>
+        <!-- subject -->
+    </div>
+     <div class="card subject">
+            <p class="h6 font-weight-bold text-center">Etapes du programme</p>
+            <ol>
+                <li>Récupérer ce qui est saisi dans l'élément HTML &lt;input type="text" ... /&gt;.</li>
+                <li>S'assurer que ce qui est récupéré est bien d'un <strong>nombre</strong>.</li>
+                <li>Faire le test de divisibilité.</li>
+                <li>Afficher soit le résultat (alert (...)) sous la forme
+                    <ul>
+                        <li><span class="text-primary">Le nombre <em>n</em> est divisible par 3</span>, si c'est divisible par trois</li>
+                        <li><span class="text-primary">Le nombre <em>n</em> n'est pas divisible par 3</span>, dans le cas contraire</li>
+                    </ul>
+                    avec <em>n</em> qui comtient la valeur testée saisie par l'utilisateur.
+                </li>
+            </ol>
+    </div>
+
+    <br/>
+    <!--Formulaire-->
+    <label>Entrez un chiffre</label>
+    <br/>
+    <input type="text" id="number" />
+    <button type="button" class="btn btn-primary" onclick="isDivisibleBy3()">
+        Divisible par 3 ?
+    </button>
+</div>
+
+<script type="text/javascript">
+    function isDivisibleBy3() {
+
+        // CODE HERE !
+    }
+</script>
+</body>
+</html>
