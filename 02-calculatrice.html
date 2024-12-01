@@ -32,18 +32,18 @@
 
     <br/>
     <!--Formulaire-->
-    <label>Entrez un chiffre</label>
-    <br/>
-    <input type="text" id="numberA" size="6"/>
-    <input type="text" id="numberB" size="6"/>
-    <select name="operation" id="operation">
-        <option value="">-- Choix opération--</option>
-        <option value="plus">+ (additionner)</option>
-        <option value="minus">- (soustraire)</option>
-        <option value="times">* (multiplier)</option>
-        <option value="divide">/ (diviser)</option>
-    </select>
-    <button type="button" class="btn btn-primary">
+    <div>
+        <input type="text" id="numberA" size="8" placeholder="nombre A" />
+        <select name="operation" id="operation">
+            <option value="">-- Choix opération--</option>
+            <option value="plus">+ (additionner)</option>
+            <option value="minus">- (soustraire)</option>
+            <option value="times">* (multiplier)</option>
+            <option value="divide">/ (diviser)</option>
+        </select>
+        <input type="text" id="numberB" size="8" placeholder="nombre B" />
+    </div>
+     <button type="button" class="btn btn-primary">
         Calcul
     </button>
 </div>
@@ -51,7 +51,7 @@
 <script type="text/javascript">
     function calcul() {
         // CODE HERE !
-        
+
     }
 </script>
 </body>
