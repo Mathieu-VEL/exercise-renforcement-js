@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo d'Algo - Even / Odd !</title>
+    <link href="./bootstrap.min.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="card">
+    <!--Instructions-->
+    <p class="h6 font-weight-bold text-center">#02 - Calculatrice</p>
+    <div class="instructions">
+        <p class="text-secondary">Mini calculatrice à 4 opérations.<br>
+        L'utilisateur saisira 2 nombres A et B (entier ou flottant), choisira une opération et demandera le résultat 
+        en appuyant sur le bouton "Calcul".</p>
+        <!-- subject -->
+    </div>
+     <div class="card subject">
+            <p class="h6 font-weight-bold text-center">Etapes du programme</p>
+            <ol>
+                <li><u>Préliminaire</u> : il faut penser à placer le(s) écouteur(s) d'événement.</li>
+                <li>Récupérer toutes les informations saisies dans le HTML (les 2 nombres et l'opération).</li>
+                <li>S'assurer que les champs sont <strong>correctement saisis</strong>.</li>
+                <li>Faire le calcul en fonction de l'opération sélectionnée.</li>
+                <li>Afficher le résultat en utilisant alert (...)</li>
+            </ol>
+    </div>
+
+    <br/>
+    <!--Formulaire-->
+    <label>Entrez un chiffre</label>
+    <br/>
+    <input type="text" id="numberA" size="6"/>
+    <input type="text" id="numberB" size="6"/>
+    <select name="operation" id="operation">
+        <option value="">-- Choix opération--</option>
+        <option value="plus">+ (additionner)</option>
+        <option value="minus">- (soustraire)</option>
+        <option value="times">* (multiplier)</option>
+        <option value="divide">/ (diviser)</option>
+    </select>
+    <button type="button" class="btn btn-primary">
+        Calcul
+    </button>
+</div>
+
+<script type="text/javascript">
+    function calcul() {
+        // CODE HERE !
+        
+    }
+</script>
+</body>
+</html>
